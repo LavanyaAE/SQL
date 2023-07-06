@@ -1,0 +1,134 @@
+USE lav;
+INSERT INTO apartment values ('Shreyas',10,'Gupta',20000,'BTM',3000,3,'30',5,'Banglore');
+INSERT INTO apartment values ('Vikas',20,'Vijay',30000,'Electonic city',3000,3,'30',5,'Banglore');
+INSERT INTO apartment values ('Karthik',30,'Vinay',40000,'Majestic',3000,3,'30',5,'Banglore');
+INSERT INTO apartment values ('Isiri',10,'Gowda',50000,'Nelmangla',3000,3,'30',5,'Banglore');
+INSERT INTO apartment values ('Nandini',10,'Gagan',60000,'Yashwanthpur',3000,3,'30',5,'Banglore');
+INSERT INTO apartment values ('Shruthi',5,'Geetha',70000,'Jaynagar',3000,3,'30',5,'Banglore');
+INSERT INTO apartment values ('Kishore',6,'Gowtham',80000,'BTM',3000,3,'30',5,'Banglore');
+INSERT INTO apartment values ('Suhas',20,'Gowri',20000,'BTM',3000,3,'30',5,'Banglore');
+SELECT * FROM apartment;
+INSERT INTO apartment values ('Shashank',20,'Gopal',20000,'Basavngudi',3000,3,'30',5,'Banglore');
+
+INSERT INTO flowers values ('Rose','Red',5,'ABC','Medicine',8,5,10,5,'Banglore','Hassan');
+INSERT INTO flowers values ('Jasmin','White',5,'ABC','cosmatics',8,5,10,5,'Banglore','Hassan');
+INSERT INTO flowers values ('Rose','Pink',5,'ABC','General purpose',8,5,10,5,'Banglore','Hassan');
+INSERT INTO flowers values ('Lotus','pink',5,'ABC','decoration',8,5,10,5,'Banglore','Hassan');
+INSERT INTO flowers values ('SunFlower','Yellow',5,'ABC','pooja',8,5,10,5,'Banglore','Hassan');
+INSERT INTO flowers values ('MarieGold','orange',5,'ABC','festivals',8,5,10,5,'Banglore','Hassan');
+INSERT INTO flowers values ('Lavender','Laender',5,'ABC','celebrations',8,5,10,5,'Banglore','Hassan');
+INSERT INTO flowers values ('Lilly','white',5,'ABC','presentations',8,5,10,5,'Banglore','Hassan');
+INSERT INTO flowers values ('Hibiscus','white',5,'ABC','Medicine',8,5,10,5,'Banglore','Hassan');
+INSERT INTO flowers values ('Orchid','orange',5,'ABC','Medicine',8,5,10,5,'Banglore','Hassan');
+INSERT INTO flowers values ('Daisy','Red',5,'ABC','Medicine',8,5,10,5,'Banglore','Hassan');
+
+INSERT INTO food values ('LemonRice',30,'fine',9,'abc',800,'yellow','South',5,700,'5Mg');
+INSERT INTO food values ('Gee Rice',30,'fine',9,'abc',800,'White','South',5,700,'5Mg');
+INSERT INTO food values ('Tomoto Rice',30,'fine',9,'abc',800,'red','South',5,700,'5Mg');
+INSERT INTO food values ('Avalakki Rice',30,'fine',9,'abc',800,'yellow','South',5,700,'5Mg');
+INSERT INTO food values ('Curd Rice',30,'fine',9,'abc',800,'white','South',5,700,'5Mg');
+INSERT INTO food values ('Vegetable Rice',30,'fine',9,'abc',800,'green','South',5,700,'5Mg');
+INSERT INTO food values ('Figure Rice',30,'fine',9,'abc',800,'yellow','South',5,700,'5Mg');
+INSERT INTO food values ('Carrot Rice',30,'fine',9,'abc',800,'Orange','South',5,700,'5Mg');
+INSERT INTO food values ('Jeera Rice',30,'fine',9,'abc',800,'white','South',5,700,'5Mg');
+INSERT INTO food values ('Egg Rice',30,'fine',9,'abc',800,'white','South',5,700,'5Mg');
+INSERT INTO food values ('Fried Rice',30,'fine',9,'abc',800,'white','South',5,700,'5Mg');
+SELECT * FROM food;
+
+INSERT INTO Humann values('John', 30, 'Male', 'Engineer', 'USA', ' New York', 'john@gmail.com', 12345567, '1993-05-10');
+INSERT INTO Humann values ('Smith', 25, 'Female', 'Teacher', 'Canada', 'Toronto', 'smith@gamil.com', 233256578, '1998-02-18');
+INSERT INTO Humann values ('Johnson', 42, 'Male', 'Doctor', 'UK', 'London', 'johnson@gmail.com', 345256778, '1981-09-27');
+INSERT INTO Humann values('David', 35, 'Female', 'Lawyer', 'Australia', 'Sydney', 'david@gmail.com', 367782829, '1988-12-07');
+INSERT INTO Humann values(' Wilson', 28, 'Male', 'Designer', 'USA', 'San Francisco', 'wilson@gmail.com', 3567187889, '1995-07-15');
+INSERT INTO Humann values('Thompson', 31, 'Female', 'Writer', 'Canada', 'Vancouver', 'thompson@gmail.com', 788997368, '1990-03-23');
+INSERT INTO Humann values ('Robert', 47, 'Male', 'Engineer', 'USA', 'Chicago', 'robert@gmail.com', 76578989, '1976-11-02');
+INSERT INTO Humann values('Jessica', 29, 'Female', 'Doctor', 'UK','Manchester', 'jessica@mail.com', 4567789900, '1992-08-14');
+INSERT INTO Humann values('Chaitra', 38, 'female', 'Architect', 'Australia', 'Melbourne', 'chaitra@mail.com', 34526779898, '1985-04-30');
+INSERT INTO Humann values ('Chandan', 27, 'Female', 'Teacher', 'USA', 'Los Angeles', 'chandan@gmail.com', 234515677988, '1994-01-09');
+SELECT * FROM Humann;
+
+INSERT INTO lavanya VALUES('Sahana',18-6,'rtt','abc','Hassan',3445566778,'B+',22,'Banglore','aelavanya@gmail.com','music');
+INSERT INTO lavanya VALUES('Pooja',18-6,'abc','errt','Hassan',3445566778,'B+',22,'Banglore','aba@gmail.com','music');
+INSERT INTO lavanya VALUES('Babitha',18-6,'efr','gyyh','Hassan',3445566778,'B+',22,'Banglore','aca@gmail.com','music');
+INSERT INTO lavanya VALUES('Poornima',18-6,'abc','efg','Hassan',3445566778,'B+',22,'Banglore','axa@gmail.com','music');
+INSERT INTO lavanya VALUES('Punith',18-6,'ghj','lmn','Hassan',3445566778,'B+',22,'Banglore','aka@gmail.com','music');
+INSERT INTO lavanya VALUES('Guna',18-6,'dghhh','tyy','Hassan',3445566778,'B+',22,'Banglore','ajmail.com','music');
+INSERT INTO lavanya VALUES('Barath',18-6,'ertt','tyyuu','Hassan',3445566778,'B+',22,'Banglore','aiya@gmail.com','music');
+INSERT INTO lavanya VALUES('Chethan',18-6,'vggr','avbv','Hassan',3445566778,'B+',22,'Banglore','aoia@gmail.com','music');
+INSERT INTO lavanya VALUES('Kavya',18-6,'thhg','gtth','Hassan',3445566778,'B+',22,'Banglore','ajha@gmail.com','music');
+INSERT INTO lavanya VALUES('Nandini',18-6,'yghh','yuuh','Hassan',3445566778,'B+',22,'Banglore','aeia@gmail.com','music');
+INSERT INTO lavanya VALUES('Suprith',18-6,'abc','tyu','Hassan',3445566778,'B+',22,'Banglore','ayuuh@gmail.com','music');
+SELECT * FROM lavanya;
+
+INSERT INTO metro_details VALUES(1, 'A', 'B', 8, 9, 30, 5, 4, 'Red', 70,'Central',90);
+INSERT INTO metro_details VALUES(2, 'C', 'D', 10, 11, 45, 7, 5, 'Blue',90, 'North',80);
+INSERT INTO metro_details VALUES(3, 'E', 'F', 12, 13, 20, 3, 2, 'Green',100, 'South',70);
+INSERT INTO metro_details VALUES(4, 'G', 'H', 14, 15, 60, 10, 6, 'Yellow',20, 'West ',60);
+INSERT INTO metro_details VALUES(5, 'I', 'J', 16, 17, 15, 2, 1, 'Purple', 29,'East',50);
+INSERT INTO metro_details VALUES(6, 'K', 'L', 18, 19, 40, 5, 3, 'Orange', 25,'Central ',90);
+INSERT INTO metro_details VALUES (7, 'M', 'N', 20, 21, 25, 4, 2, 'Pink', 30,'North ',67);
+INSERT INTO metro_details VALUES(8, 'O', 'P', 22, 23, 35, 6, 4, 'Brown', 28,'South ',78);
+INSERT INTO metro_details VALUES(9, 'Q', 'R', 24, 25, 50, 8, 5, 'Gray',100,'West',89);
+INSERT INTO metro_details VALUES(10, 'S', 'T', 26, 27, 30, 4, 3, 'Silver', 90,'East ',67);
+SELECT * FROM metro_details;
+
+INSERT INTO movie_deatails VALUES('Movie 1', 'Director 1', 'Hero 1', 'Heroine 1', 20220101, 1200, 'Theater A', 'Producer 1', 10, 4);
+INSERT INTO movie_deatails VALUES ('Movie 2', 'Director 2', 'Hero 2', 'Heroine 2', 20220515, 1430, 'Theater B', 'Producer 2', 12, 3);
+INSERT INTO movie_deatails VALUES ('Movie 3', 'Director 3', 'Hero 3', 'Heroine 3', 20221005, 1900, 'Theater C', 'Producer 3', 15, 5);
+INSERT INTO movie_deatails VALUES ('Movie 4', 'Director 4', 'Hero 4', 'Heroine 4', 20221220, 2100, 'Theater D', 'Producer 4', 11, 4);
+INSERT INTO movie_deatails VALUES ('Movie 5', 'Director 5', 'Hero 5', 'Heroine 5', 20230310, 1530, 'Theater E', 'Producer 5', 14, 3);
+INSERT INTO movie_deatails VALUES ('Movie 6', 'Director 6', 'Hero 6', 'Heroine 6', 20230628, 1800, 'Theater F', 'Producer 6', 13, 5);
+INSERT INTO movie_deatails VALUES ('Movie 7', 'Director 7', 'Hero 7', 'Heroine 7', 20231001, 2000, 'Theater G', 'Producer 7', 16, 4);
+INSERT INTO movie_deatails VALUES ('Movie 8', 'Director 8', 'Hero 8', 'Heroine 8', 20231210, 1430, 'Theater H', 'Producer 8', 9, 3);
+INSERT INTO movie_deatails VALUES ('Movie 9', 'Director 9', 'Hero 9', 'Heroine 9', 20240202, 1730, 'Theater I', 'Producer 9', 12, 5);
+SELECT * FROM movie_deatails;
+
+INSERT INTO Mobile VALUES ('Samsung', 1000, 1, 'Black', 4000, 12, 'Shop', 'Location A', 128, 50,'Good');
+INSERT INTO Mobile VALUES ('Apple', 1500, 2, 'Silver', 3000, 16, 'Shop', 'Location B', 256, 100,'Good');
+INSERT INTO Mobile VALUES ('Xiaomi', 500, 3, 'Blue', 5000, 10, 'Shop', 'Location C', 64, 30,'Good');
+INSERT INTO Mobile VALUES('Huawei', 800, 4, 'Green', 4500, 14, 'Shop', 'Location D', 128, 70,'Good');
+INSERT INTO Mobile VALUES ('OnePlus', 1200, 5, 'Red', 3500, 18, 'Shop', 'Location E', 256, 80,'Good');
+INSERT INTO Mobile VALUES ('Motorola', 600, 6, 'White', 4000, 12, 'Shop', 'Location F', 128, 40,'Good');
+INSERT INTO Mobile VALUES ('Nokia', 900, 7, 'Yellow', 3500, 14, 'Shop', 'Location G', 64, 60,'Good');
+INSERT INTO Mobile VALUES ('LG', 700, 8, 'Pink', 3000, 16, 'Shop', 'Location H', 128, 90,'Good');
+INSERT INTO Mobile VALUES ('Google', 1300, 9, 'Orange', 4000, 12, 'ShopI', 'Location I', 256, 60,'Good');
+INSERT INTO Mobile VALUES ('Sony', 1000, 10, 'Purple', 3500, 14, 'ShopJ', 'Location J', 128, 70,'Good');
+SELECT * FROM Mobile;
+
+INSERT INTO cooker VALUES ('Stainless', 'Round', 5, 'Silver', 'Brand A', 10, 'High', 'Electric', '1 year', 4,'2 years');
+INSERT INTO cooker VALUES('Aluminum', 'Square', 8, 'Black', 'Brand B', 12, 'Medium', 'Gas', '2 years', 5,'4 years');
+INSERT INTO cooker VALUES('Ceramic', 'Oval', 6, 'White', 'Brand C', 8, 'High', 'Electric', '1 year', 4,'2 years');
+INSERT INTO cooker VALUES('Stainless', 'Round', 4, 'Red', 'Brand D', 6, 'Low', 'Induction', '2 years', 3,'2 years');
+INSERT INTO cooker VALUES('Aluminum', 'Square', 10, 'Blue', 'Brand E', 15, 'Medium', 'Gas', '1 year', 4,'2 years');
+INSERT INTO cooker VALUES('Ceramic', 'Oval', 7, 'Green', 'Brand F', 9, 'High', 'Electric', '2 years', 5,'2 years');
+INSERT INTO cooker VALUES('Stainless', 'Round', 6, 'Silver', 'Brand G', 10, 'High', 'Induction', '1 year', 4,'2 years');
+INSERT INTO cooker VALUES ('Aluminum', 'Square', 9, 'Black', 'Brand H', 14, 'Medium', 'Gas', '2 years', 5,'2 years');
+INSERT INTO cooker VALUES('Ceramic', 'Oval', 5, 'White', 'Brand I', 7, 'High', 'Electric', '1 year', 4,'2 years');
+INSERT INTO cooker VALUES ('Stainless', 'Round', 3, 'Red', 'Brand J', 5, 'Low', 'Gas', '2 years', 3,'2 years');
+SELECT * FROM cooker;
+
+INSERT INTO River VALUES('Ganga', 6992, 11, 100, 'ABC', 50, 5000, 3, 10, 'Freshwater',5);
+INSERT INTO River VALUES('Nile', 6852, 8, 15, 'EFG', 30, 3000, 2, 5, 'Freshwater',9);
+INSERT INTO River VALUES('Kaveri', 3734, 2, 30, 'HIJ', 20, 1000, 1, 3, 'Freshwater',10);
+INSERT INTO River VALUES('Yagachi', 6300, 3, 40, 'KLM', 40, 4000, 2, 7, 'Freshwater',5);
+INSERT INTO River VALUES('Hemavathi', 2850, 1, 20, 'NOP', 25, 1500, 1, 4, 'Freshwater',8);
+INSERT INTO River VALUES('Netravathi', 3530, 4, 25, 'QRS', 35, 2000, 1, 5, 'Freshwater',8);
+INSERT INTO River VALUES('Sharavathi', 4350, 3, 35, 'TUV', 45, 3000, 2, 6, 'Freshwater',9);
+INSERT INTO River VALUES('Thunga', 2334, 5, 50, 'WXY', 60, 2000, 2, 4, 'Freshwater',4);
+INSERT INTO River VALUES('Bhadra', 2525, 6, 25, 'ZABC', 40, 2500, 1, 5, 'Freshwater',3);
+SELECT * FROM River;
+
+DESC sports;
+INSERT INTO sports VALUES('Football', 1, 'Lionel Messi', 34, 'Argentina', 5, 3, 'Barcelona', 'Ronald Koeman', 'Forward',10);
+INSERT INTO sports VALUES('Basketball', 2, 'LeBron James', 37, 'USA', 4, 2, 'USA', 'Frank Vogel', 'Forward',11);
+INSERT INTO sports VALUES('Tennis', 3, 'Serena Williams', 40, 'USA', 7, 5, 'Palm Beach', 'Patrick Mouratoglou', 'Singles',18);
+INSERT INTO sports VALUES('Cricket', 4, 'Virat Kohli', 33, 'India', 6, 4, 'Mumbai', 'Ravi Shastri', 'Batsman',10);
+INSERT INTO sports VALUES('Golf', 5, 'Tiger Woods', 46, 'USA', 3, 2, 'Jupiter', 'Joe LaCava', 'PGA Tour',5);
+INSERT INTO sports VALUES('Swimming', 6, 'Michael Phelps', 37, 'USA', 5, 4, 'Baltimore', 'Bob Bowman', 'Butterfly',8);
+INSERT INTO sports VALUES('Athletics', 7, 'Usain Bolt', 35, 'Jamaica', 6, 3, 'Kingston', 'Glen Mills', 'Sprints',10);
+INSERT INTO sports VALUES('Baseball', 8, 'Mike Trout', 30, 'USA', 4, 2, 'Angeles', 'Joe Maddon', 'Outfielder',12);
+INSERT INTO sports VALUES('Rugby', 9, 'Jonny Wilkinson', 43, 'England', 5, 3, 'Newcastle', 'Eddie Jones', 'Fly-half',6);
+INSERT INTO sports VALUES('Hockey', 10, 'Sidney Crosby', 34, 'Canada', 5, 4, 'Pittsburgh', 'Mike Sullivan', 'Center',8);
+SELECT * FROM sports;
+
+

@@ -1,0 +1,13 @@
+CREATE DATABASE lav;
+SHOW DATABASES;
+USE lav;
+CREATE TABLE metro_details(Metro_No int, Starting_location varchar(10),Ending_location varchar(10),Arrival_time int,Departure_time int, time_taken int,ticket_price int,num_of_stops int,color varchar(10),num_of_people int,station varchar(10));
+CREATE TABLE Lavanya(Full_Name varchar(10),DOB varchar(10),Father_Name varchar(10),Mother_Name varchar(10),Address varchar(10),Mob_No bigint,Blood_Group varchar(10),Age int,current_location varchar(10),email varchar(20));
+CREATE TABLE movie_deatails(Movie_name varchar(10), Director varchar(10), Hero varchar(10), Heroine varchar(10), Release_Date int, Release_Time int, Place varchar(10),Producer varchar(10),ticket_price int,ratings int);
+CREATE TABLE Mobile(Brand varchar(10),price int,version int,color varchar(10),Battery_capacity int,Camera_clarity int,shop_name varchar(10),shop_location varchar(10),storage_capacity int,num_of_apps int);
+CREATE TABLE Food(Name_of_Food varchar(20),price int,taste varchar(10),ratings int,ingridients_used int,weight int,colour varchar(10),type_of_food varchar(10),variety int,calories int);
+CREATE TABLE River(Name_of_River varchar(20),Length int,width int,depth int,Birth_place varchar(10),Boating_price int,num_of_species int,adventures_games int,num_of_places int,water_type varchar(10));
+CREATE TABLE sports(Sports_names varchar(20), sports_types int, player_names varchar (20), players_age int, player_daite varchar(10), player_prcatice int, attend_nationals int, player_place varchar(10), couch_name varchar(20), player_events varchar(10));
+CREATE TABLE apartment(name_of_apartment varchar(20),no_of_flats int,owner_name varchar(20),rent_price int,location varchar(20),area int,no_of_rooms int,no_of_floors int,num_of_gates int);
+CREATE TABLE Flowers(name_of_flower varchar(20),colour varchar(10),size int,type_of_flower varchar(20),use_of_flower varchar(20),Num_of_petals int,num_of_sepals int,height_of_plant int,price int,place varchar(20));
+CREATE TABLE cooker(material varchar(10), shape varchar(10), capacity int, colour varchar(10), brand varchar(10), weight int,quality varchar(10), cooker_type varchar(10), warranty varchar(10),durability int);
